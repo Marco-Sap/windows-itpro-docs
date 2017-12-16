@@ -178,7 +178,7 @@ Here are a list of common error messages:
 
             3.  Name the step **Persist TPM OwnerAuth**
 
-            4.  Set the command line to `cscript.exe "%SCRIPTROOT%/SaveWinPETpmOwnerAuth.wsf"`  
+            4.  Set the command line to `cscript.exe "%SCRIPTROOT%\SaveWinPETpmOwnerAuth.wsf"`  
             **Note:** For Windows 10, version 1607 or later, only Windows can take ownership of the TPM. In addiiton, Windows will not retain the TPM owner password when provisioning the TPM. See [TPM owner password](http://technet.microsoft.com/en-us/itpro/windows/keep-secure/change-the-tpm-owner-password) for further details.
 
         3.  In the **State Restore** folder, delete the **Enable BitLocker** task.
